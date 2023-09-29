@@ -47,25 +47,3 @@ void radix_sort(int *array, size_t size) {
         counting_sort(array, size, exp);
     }
 }
-
-/*int main() {
-    int arr[] = {170, 45, 75, 90, 802, 24, 2, 66};
-    size_t size = sizeof(arr) / sizeof(arr[0]);
-
-    printf("Original array:\n");
-    for (size_t i = 0; i < size; i++) {
-        printf("%d ", arr[i]);
-    }
-    printf("\n\n");
-
-    radix_sort(arr, size);
-
-    printf("\nSorted array:\n");
-    for (size_t i = 0; i < size; i++) {
-        printf("%d ", arr[i]);
-    }
-    printf("\n");
-
-    return 0;
-}*/
-
